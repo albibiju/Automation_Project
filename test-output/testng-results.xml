@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-06T22:40:54 IST" name="Suite" finished-at="2025-07-06T22:42:58 IST" duration-ms="124040">
+    <groups>
+    </groups>
+    <test started-at="2025-07-06T22:40:54 IST" name="Test" finished-at="2025-07-06T22:42:58 IST" duration-ms="124040">
+      <class name="tests.homeTest">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:tests.homeTest@61710c6]" started-at="2025-07-06T22:40:54 IST" name="setUpPage" finished-at="2025-07-06T22:40:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logoVerification()[pri:0, instance:tests.homeTest@61710c6]" started-at="2025-07-06T22:40:54 IST" name="logoVerification" finished-at="2025-07-06T22:40:55 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerification -->
+        <test-method signature="titleVerification()[pri:0, instance:tests.homeTest@61710c6]" started-at="2025-07-06T22:40:55 IST" name="titleVerification" finished-at="2025-07-06T22:40:55 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method signature="urlVerification()[pri:0, instance:tests.homeTest@61710c6]" started-at="2025-07-06T22:40:55 IST" name="urlVerification" finished-at="2025-07-06T22:40:55 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlVerification -->
+        <test-method signature="verifyPageScrollability()[pri:0, instance:tests.homeTest@61710c6]" started-at="2025-07-06T22:40:55 IST" name="verifyPageScrollability" finished-at="2025-07-06T22:40:57 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageScrollability -->
+        <test-method signature="websiteIsSecure()[pri:0, instance:tests.homeTest@61710c6]" started-at="2025-07-06T22:40:57 IST" name="websiteIsSecure" finished-at="2025-07-06T22:40:57 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- websiteIsSecure -->
+      </class> <!-- tests.homeTest -->
+      <class name="tests.loginTest">
+        <test-method signature="testUserLogin()[pri:0, instance:tests.loginTest@3214ee6]" started-at="2025-07-06T22:40:57 IST" name="testUserLogin" finished-at="2025-07-06T22:41:54 IST" duration-ms="56941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+      </class> <!-- tests.loginTest -->
+      <class name="tests.planCheckoutTest">
+        <test-method signature="testPlanSelectionToCheckout()[pri:0, instance:tests.planCheckoutTest@383dc82c]" started-at="2025-07-06T22:41:54 IST" name="testPlanSelectionToCheckout" finished-at="2025-07-06T22:42:42 IST" duration-ms="48690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlanSelectionToCheckout -->
+      </class> <!-- tests.planCheckoutTest -->
+      <class name="tests.BaseTestSuite">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:tests.BaseTestSuite@2438dcd]" started-at="2025-07-06T22:40:30 IST" name="globalSetup" finished-at="2025-07-06T22:40:54 IST" duration-ms="24613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method is-config="true" signature="globalTearDown()[pri:0, instance:tests.BaseTestSuite@2438dcd]" started-at="2025-07-06T22:42:59 IST" name="globalTearDown" finished-at="2025-07-06T22:42:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalTearDown -->
+      </class> <!-- tests.BaseTestSuite -->
+      <class name="tests.logoutTest">
+        <test-method signature="testLogoutFunctionality()[pri:0, instance:tests.logoutTest@4a07d605]" started-at="2025-07-06T22:42:42 IST" name="testLogoutFunctionality" finished-at="2025-07-06T22:42:58 IST" duration-ms="16121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutFunctionality -->
+      </class> <!-- tests.logoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
